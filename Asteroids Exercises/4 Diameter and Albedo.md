@@ -10,7 +10,10 @@ In this exercise, we will use data from the Wide-Field Infrared Survey Explorer 
 
 **Size estimation from one data point (W3 or S9W)**
 1. The simplest thermal model of an asteroid is the isothermal model, where the asteroid emits at constant temperature across its entire surface area, at a temperature equal to the equilibrium temperature $T$ of the asteroid. Given the equation for equilibrium temperature $T(A, r)$ and the Planck function for blackbody spectral irradiance per unit frequency $P(T, \lambda)$, derive an expression for the flux observed on Earth $F$ as a function of diameter $D$ and albedo $A$ of an asteroid. (Hints: the total flux emitted by the asteroid is proportional to its projected surface area and the intensity of radiation drops in proportion to the square of the distance to the observer—this is the inverse square law. Your final equation should be $F_0$ as a function of $\lambda$, $r$, $\delta$, $A$, and $D$. For simplicity assume $\epsilon = 1$ and use $J_{Sun} = 1365 \text{W/m}^2$)
+
 $$T_{eff} = \frac{1}{\sqrt{r}} \left( \frac{(1 - A) J_{Sun}}{4 \epsilon \sigma}\right)^{1/4} $$
+
+
 $$P(T, \lambda) = \frac{2hc}{\lambda^3} \frac{1}{\exp(\frac{hc}{\lambda k_B T}) - 1}$$
 
 3. Compute the average flux for the WISE W3 or AKARI S9W measurements taken at the same epoch. Since these observations were not taken at a phase angle of $0^{\circ}$, we need to introduce a correction to what the flux of the asteroid would have been if observed at a phase angle of $0^{\circ}$. Empirically, asteroids in the thermal infrared are estimated to darken by 0.01 magnitudes per degree as a function of increasing phase angle. Use the flux/magnitude relationship to calculate $F_0$ (the estimated flux at $\alpha = 0^{\circ}$).
