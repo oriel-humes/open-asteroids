@@ -25,7 +25,7 @@ Astronomical images returned from telescopes are typically stored using the Flex
 1. [Download and install ds9](https://sites.google.com/cfa.harvard.edu/saoimageds9/).
 2. Each dataset consists of a series of images of the asteroid over the course of several different nights. Download all the images corresponding to your asteroid. Identify which set of frames belong to each night. For each night, open the series of images as frames and blink between them to identify which object is the asteroid.
 3. For each image, record the position of the object in sexagesimal (hours/degrees, minutes, seconds) and the time and date the image was taken (see the DATE-OBS keyword header) and the location of the telescope that took the image (see header keywords SITELONG, SITELAT, and SITEELEV and table below):
-4. 
+
 |Site Code | Longitude |Latitude | Altitude (m)|Site Name|
 |--|--|--|--|--|
 |M22|20.81059|-32.380158|1802|ATLAS South Africa|
