@@ -32,7 +32,7 @@ Astronomical images returned from telescopes are typically stored using the Flex
 |T05|203.74299|+20.707553|3046|ATLAS Haleakala|
 |T08|204.42395|+19.536152|3426|ATLAS Mauna Loa|
 |W68|289.23502|-30.471012|1600|ATLAS Chile|
-|I41|243.14021|+33.180866|1664|Palomar Mountain (ZTF)|
+|I41|-116.8586|+33.3573|1668|Palomar Mountain (ZTF)|
 
 
 
