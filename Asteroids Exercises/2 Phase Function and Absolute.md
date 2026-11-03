@@ -12,9 +12,9 @@ In this exercise, we will use data from ATLAS and/or the Zwicky Transient Facili
 
 $$M = m – 5 \log10\left(\frac{r \delta}{\text{AU}^2}\right)$$
 
-2. The reduced magnitude can also be expressed as a function of absolute magnitude and phase angle using the $H, G$ system. Build an intuition for the meaning of $H$ and $G$ by computing and plotting $H(\alpha)$ as a function of phase angle $\alpha$ for a range of different values of $H$ and $G$ (hint: a typical value of $G$ is 0.15). Use the following empirical form of the $H, G$ phase function:
+2. The reduced magnitude can also be expressed as a function of absolute magnitude and phase angle using the $H, G$ system. Build an intuition for the meaning of $H$ and $G$ by computing and plotting $M$ as a function of phase angle $\alpha$ for a range of different values of $H$ and $G$ (hint: a typical value of $G$ is 0.15). Use the following empirical form of the $H, G$ phase function:
 
-$$H(\alpha) = M - 2.5 \log10 \left( (1-G)\phi_1(\alpha) + G\phi_2(\alpha) \right)$$
+$$M(\alpha) = H - 2.5 \log10 \left( (1-G)\phi_1(\alpha) + G\phi_2(\alpha) \right)$$
 $$\phi_i = \exp \left( -A_i (\tan(\alpha/2))^{B_i} \right) \text{ for } i = 1, 2$$
 $$A_1 = 3.33, B_1 = 0.63, A_2 = 1.87,  B_2 = 1.22$$
 
