@@ -8,7 +8,7 @@ In this exercise, we will use data from ATLAS and/or the Zwicky Transient Facili
 
 ## Instructions
 
-1. Using the provided dataset, compute the distance corrected magnitude $M$ for each observation, that is, its measured magnitude $m$ adjusted to what it would be if it was at a distance 1 AU from the Sun and the observer. Create a plot of the measured distance corrected magnitude $M$ as a function of phase angle $\alpha$. 
+1. Using the provided dataset, compute the distance corrected magnitude $M$ for each observation, that is, its measured magnitude $m$ adjusted to what it would be if it was at a distance 1 AU from the Sun and the observer. Create a plot of the measured distance corrected magnitude $M$ as a function of phase angle $\alpha$ using the dataset for your asteroid to construct an empirical relationship.
 
 $$M = m – 5 \log10\left(\frac{r \delta}{\text{AU}^2}\right)$$
 
