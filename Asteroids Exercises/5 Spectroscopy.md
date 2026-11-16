@@ -12,7 +12,7 @@ In this exercise, we will use data from the Gaia mission. Gaia is an ESA space-b
 $$S = \frac{(L(650 \text{nm}) - L(550 \text{nm}))}{L(550 \text{nm})} * 100$$
 Next, quantify the strength of the 1 micron absorption feature by estimating the asteroid’s (z-i) color, which can be computed using     
 $$z − i = 2.5 \log10 \left(\frac{Rz}{Ri}\right)$$
-where Rz and Ri represent the interpolated values of the reflectances at 748 nm and 893 nm, respectively. Report S and (z-i) for your asteroid. Compare these values to Fig. 9 of [Gaia Data Release 3: Reflectance spectra of Solar System small bodies](https://doi.org/10.1051/0004-6361/202243791). Where does your asteroid fall on this plot? What taxonomic types are near to it in (z-i) vs. S space? 
+where Ri and Rz represent the interpolated values of the reflectances at 748 nm and 893 nm, respectively. Report S and (z-i) for your asteroid. Compare these values to Fig. 9 of [Gaia Data Release 3: Reflectance spectra of Solar System small bodies](https://doi.org/10.1051/0004-6361/202243791). Where does your asteroid fall on this plot? What taxonomic types are near to it in (z-i) vs. S space? 
 
     **Gaia DR3 asteroid taxonomy.** reproduced under the [Creative Commons 4.0 license](https://creativecommons.org/licenses/by/4.0/). Credits: Gaia Collaboration et al. ![Gaia DR3 asteroid taxonomy.](gaia_taxonomy.png)
 
